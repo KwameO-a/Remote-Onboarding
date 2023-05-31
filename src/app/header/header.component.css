@@ -1,0 +1,24 @@
+.title-line {
+    height: 18px;
+    background-image: linear-gradient(94deg, #0064fc, #03a);
+  }
+  
+  .title-bar {
+    color: #000;
+    background-color: #f5f6f7;
+    align-items: center;
+    padding: 24px;
+    display: flex;
+  }
+  
+  .logo {
+    width: 152px;
+    height: 42px;
+    flex: none;
+  }
+  .text-block-3 {
+    float: right;
+    text-align: right;
+    margin-left: auto;
+  }
+  

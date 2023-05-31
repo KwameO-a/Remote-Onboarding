@@ -1,0 +1,107 @@
+.container {
+    text-align: center;
+    border: 1px #000;
+    padding-bottom: 54px;
+  }
+  .ads-banner {
+    height: 80px;
+    background-image: url('src/assets/images/progresive-6.svg'), linear-gradient(94deg, #0064fc, #03a);
+    background-position: 95%, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: auto, auto;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+  }
+  .text-block {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+  }
+  .button-continue {
+    color: #3b82f6;
+    background-color: #dbeafe;
+    border-radius: 6px;
+    margin-left: 5px;
+    padding: 14px 16px;
+  }
+  .start-new-application {
+    background-image: linear-gradient(to right, #0064fc, #03a);
+    border-radius: 6px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 5px;
+    padding: 14px 16px;
+    display: inline-block;
+  }
+  @media screen and (max-width: 767px) {
+    .container {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .text-block {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    
+      .div-block {
+        overflow: auto;
+      }
+    }
+    
+    @media screen and (max-width: 479px) {
+      .title-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 16px;
+      }
+    
+      .logo {
+        margin-bottom: 16px;
+      }
+    
+      .text-block {
+        text-align: left;
+      }
+    
+      .start-new-application {
+        margin-bottom: 16px;
+      }
+    
+      .buttons {
+        text-align: center;
+      }
+    
+      .image {
+        height: 296px;
+      }
+    
+      .info.info {
+        margin-left: 0;
+      }
+    
+      .info.refrsh, .text-block-4 {
+        margin-left: 32px;
+      }
+    
+      .title-wrapper {
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        display: flex;
+      }
+    }
+    
+ 
+ 
+  
+  
+  
